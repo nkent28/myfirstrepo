@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shop details</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Office Availability</h1>
+        <table>
+            <tr>
+                <th>Days of the week</th>
+                <th>Opening Hours</th>
+            </tr>
+            <tr>
+                <td>Monday to Friday</td>
+                <td>9.00am-8.00pm</td>
+            </tr>
+            <tr>
+                <td>Saturday & Sunday</td>
+                <td>9.00am-6.00pm</td>
+            </tr>
+
+        </table>
+
+        <form action="/practice.html" method="POST">
+            <h1>Survey about Katrina Kaif</h1>
+            <p>Let us know from the below what you like about Katrina</p>
+
+            <section class="hair colour">
+                <label for="hair colour">What colour hair suits Katrina?</label>
+                <input type="text" name="hair colour" id="hair colour">
+            </section>
+            <br>
+            <section class="favourite songs">
+                <label for="favourite songs">How many times have you watched your favourite Katrina song</label>
+                <input type="number" name="favourite songs" id="favourite songs">
+            </section>
+            <br>
+            <section class="beauty">
+                <label for="beauty">How beautiful is Katrina</label>
+                <br>
+                <input type="range" name="beauty" id="beauty" min="0" max="10" step="1">
+                <br>
+                <span>0</span>
+                <span>10</span>
+            </section>
+            <section class="love interest">
+                <br>
+                <span>Who makes the best couple with Katrina</span>
+                <br>
+                <label for="love interest">Akshay Kumar</label>
+                <input type="checkbox" name="couple" id="love interest" value="love interest">
+
+                <label for="love interest">Salman Khan</label>
+                <input type="checkbox" name="couple" id="love interest" value="love interest">
+
+                <label for="love interest">Hrithik Roshan</label>
+                <input type="checkbox" name="couple" id="love interest" value="love interest">
+            </section>
+            <section class="style">
+                <br>
+                <span>Do you like Katrina's allround style?</span>
+                <br>
+                <input type="radio" name="style" id="yes" value="yes">
+                <label for="yes">Yes</label>
+
+                <label for="no">No</label>
+                <input type="radio" name="style" id="no" value="no">
+            </section>
+            <section class="favourite part">
+                <br>
+                <label for="part">What is your favourite part of Katrina</label>
+                
+                <select id="part" name="part">
+                    <option value="eyes">Eyes</option>
+                    <option value="smile">Smile</option>
+                    <option value="hair">Hair</option>
+                    <option value="body">Body</option>
+                </select>
+            </section>
+            <section class="filming locations">
+                <label for="locations">What country would you like Katrina to film in</label>
+                <input list="location" id="location" name="locations">
+
+                <datalist id="location">
+                    <option value="new zealand">New Zealand</option>
+                    <option value="united kingdom">United Kingdom</option>
+                    <option value="brazil">Brazil</option>
+                    <option value="spain">Spain</option>
+                    <option value="australia">Australia</option>
+                </datalist>
+            </section>
+            <section class="extra info">
+                <label for="extra">Anything else you want to add</label>
+                <br>
+                <textarea id="extra" name="extra" rows="3" cols="40">Important things to add</textarea>
+            </section>
+            <section class="submission">
+                <input type="Submit">
+            </section>
+
+        </form>
+
+
+
+
+
+    </body>
+
